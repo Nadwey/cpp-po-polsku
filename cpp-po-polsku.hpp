@@ -2,14 +2,13 @@
 
 #define Stała const
 #define Całkowita int
-#define Cośtam float
+#define ZmiennoPrzecinkowa float
 #define Podwójna double
 #define Znak char
 #define Długa long
 // Lepszej nazwy nie było :))
-#define Zmienna1Bitowa bool
-// Z tłumacza
-#define Niepodpisana unsigned
+#define PrawdaLubFałsz bool
+#define BezZnakowa unsigned
 
 #define Publiczna public
 #define Prywatna private
@@ -27,12 +26,14 @@
 #define Odejmij -
 #define Podziel /
 #define Pommnóż *
+#define ResztaZDzielenia %
 #define DodajJeden ++
 #define OdejmijJeden --
 #define DodajTo +=
 #define OdejmijTo -=
 #define PomnóżTo *=
 #define PodzielTo /=
+#define ResztaZdzieleniaTo %=
 #define Odnośnik &
 
 #define Nie !
@@ -42,10 +43,15 @@
 #define JestMniejsze <
 #define JestWiększeLubRówne >=
 #define JestMniejszeLubRówne <=
-#define PrzesunięcieBitoweWLewo <<
-#define PrzesunięcieBitoweWPrawo >>
 #define I &&;
 #define Lub ||;
+
+#define PrzesunięcieBitoweWLewo <<
+#define PrzesunięcieBitoweWPrawo >>
+#define BitoweI &
+#define BitoweLub |
+#define BitowyLubAleNieTakieSamo ^
+#define BitoweNie ~
 
 #define Jeśli if
 #define Dla for
